@@ -1,0 +1,101 @@
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+.one, .two{
+    font-size: 20px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+.head-text{
+    padding: 130px 30px 100px;
+}
+.head-text h1{
+    font-family: 'Righteous', cursive;  
+    font-size: 50px;  
+}
+.head-text p:nth-of-type(1){
+    font-family: 'Raleway', sans-serif;
+    font-style: lighter;
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 20px;
+    margin-top: 16px;
+    color: #484848;
+    margin-bottom: 20px;
+}
+.head-text p{
+    font-family: 'Raleway', sans-serif;
+}
+.head-text a{
+    font-family: 'Righteous', cursive;    
+}
+footer{
+    font-family: 'Righteous', cursive;
+    position: absolute;
+    bottom: 0; 
+    left: 5px;
+}
+.calculate{
+    font-size: 17px;
+    margin-right: 50px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: 3px 5px 3px 5px;
+    width: 120px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #F81717;
+}
+.navbar-nav.ml-auto li a{
+    color: white;
+}
+.color-me{
+    color:white;
+}
+.calc-button{
+    border: 1px solid #BABABA;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    width: 350px;
+    padding: 7px 10px 7px 10px;
+    display: inline-block;
+}
+input{
+    border: none;
+    padding: 7px 0px 7px 20px;
+    margin-right: 10px;
+    outline: none !important;
+}
+.calc-button button{
+    font-size: 17px;
+    margin-right: 50px;
+    font-weight: normal;
+    color: white;
+    margin: 3px 0px 3px 10px;
+    padding: 7px 0px 7px 0px;
+    width: 120px;
+    text-align: center;
+    border-radius: 50px;
+    border: none;
+    background-color: #F81717;
+}
+.calc-button a{
+    color: white;
+    text-decoration: none;
+}
+.calc-button a:hover{
+    color: #F81717;
+    text-decoration: none;
+}
+.calc-button button:hover{
+    background-color: white;
+    color: #F81717;
+
+}
